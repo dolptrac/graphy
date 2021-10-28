@@ -5,11 +5,10 @@ import 'package:graphy/widgets/bappbar.dart';
 import 'package:graphy/widgets/heading.dart';
 import 'package:graphy/widgets/nft_container.dart';
 
-var apiKEY =
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDVGRDk0YkQzNTJFOTg4NWIyNDFEODJBZDIwMUJjMEEzMDcxRTFDOTQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYzNTMyODEzMTYwOCwibmFtZSI6IkdyYXBoeSJ9.7LN63Zo1csxArdMco8MCo8bdZdPDxW6_gHRhq5BUYAk';
+var apiKEY = "YOUR APIKEY";
 var url = "https://api.nft.storage/";
 var imageSupport = ".ipfs.dweb.link";
-var cid = 'bafybeihd4dnd5rfjm35kl6acqmnh75kp2nnblzpkqdr7z2yobig6pomnzy';
+var testCid = 'bafybeihd4dnd5rfjm35kl6acqmnh75kp2nnblzpkqdr7z2yobig6pomnzy';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
